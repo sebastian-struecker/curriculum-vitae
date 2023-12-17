@@ -7,7 +7,7 @@ This project serves as my own digital Curriculum Vitae
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/sebastian-struecker/curriculum-vitae.git
 ```
 
 Go to the project directory
