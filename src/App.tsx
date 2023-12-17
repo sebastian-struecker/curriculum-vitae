@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.scss';
 import picture from './memoji.png';
+import {SocialIcon} from "react-social-icons";
 
 function App() {
     return (
@@ -17,13 +18,10 @@ function App() {
                     </div>
                     <div className="header__text__links">
                         <div className="header__text__links__link">
-                            link
+                            <SocialIcon bgColor="#846855" url="https://www.linkedin.com/in/sebastian-struecker/"/>
                         </div>
                         <div className="header__text__links__link">
-                            link
-                        </div>
-                        <div className="header__text__links__link">
-                            link
+                            <SocialIcon bgColor="#846855" url="https://github.com/sebastian-struecker/"/>
                         </div>
                     </div>
                     <div className="header__text__cta">
@@ -31,7 +29,7 @@ function App() {
                     </div>
                 </div>
                 <div className="header__picture">
-                    <img src={picture} alt="logo"/>
+                    <img src={picture} alt="myself"/>
                 </div>
             </header>
             <div className="body">
