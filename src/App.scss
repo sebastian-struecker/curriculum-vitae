@@ -1,10 +1,13 @@
+@import "variables";
+
 .header {
-  height: 100vh;
-  width: 100vw;
+  height: 84vh;
+  width: 84vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 7vh 7vw;
 
   &__text {
     display: flex;
@@ -12,7 +15,7 @@
     justify-content: center;
     width: 50vw;
     height: fit-content;
-    border-color: #846855;
+    border-color: $primary-color;
     border-width: thin;
     border-style: solid;
     box-shadow: 5px 5px 10px 0 rgba(132, 104, 85, 0.5);
@@ -30,7 +33,7 @@
       flex-direction: row;
       align-content: center;
       justify-content: flex-start;
-      column-gap: 1vw;
+      column-gap: $small-column-gap;
 
       &__link {
 
@@ -44,6 +47,26 @@
 
   &__picture {
     display: flex;
+  }
+
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 7vh 7vw;
+  column-gap: $large-column-gap;
+  row-gap: $large-row-gap;
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
   }
 
 }

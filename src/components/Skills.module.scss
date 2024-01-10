@@ -1,0 +1,44 @@
+@import "../variables";
+
+.skills {
+
+  display: flex;
+  width: 80vw;
+  justify-content: space-around;
+  align-items: baseline;
+
+  &__title {
+    color: $primary-color;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    column-gap: $large-column-gap;
+    row-gap: $row-gap;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 60vw;
+    justify-content: space-between;
+
+    &__category {
+
+      &__title {
+        font-weight: bold;
+        margin-bottom: 1vh;
+      }
+
+      &__skills {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        row-gap: $small-row-gap;
+
+        &__skill {
+
+        }
+      }
+    }
+  }
+}
