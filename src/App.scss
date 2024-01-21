@@ -1,54 +1,13 @@
 @import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.header {
-  height: 84vh;
-  width: 84vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 7vh 7vw;
+.App {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
 
-  &__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50vw;
-    height: fit-content;
-    border-color: $primary-color;
-    border-width: thin;
-    border-style: solid;
-    box-shadow: 5px 5px 10px 0 rgba(132, 104, 85, 0.5);
-
-    &__greetings {
-      text-align: left;
-    }
-
-    &__description {
-      text-align: left;
-    }
-
-    &__links {
-      display: flex;
-      flex-direction: row;
-      align-content: center;
-      justify-content: flex-start;
-      column-gap: $small-column-gap;
-
-      &__link {
-
-      }
-    }
-
-    &__cta {
-
-    }
-  }
-
-  &__picture {
-    display: flex;
-  }
-
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .body {
@@ -59,14 +18,7 @@
   justify-content: center;
   align-items: flex-start;
   padding: 7vh 7vw;
-  column-gap: $large-column-gap;
-  row-gap: $large-row-gap;
-
-  &__section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-  }
+  column-gap: $large-gap;
+  row-gap: $large-gap;
 
 }

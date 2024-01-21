@@ -1,6 +1,7 @@
 # Curriculum Vitae
 
-This project serves as my own digital Curriculum Vitae
+This project serves as my own digital Curriculum Vitae.
+> [Click here to visit the page!](https://sebastian-struecker.github.io/curriculum-vitae/)
 
 ## Run Locally
 

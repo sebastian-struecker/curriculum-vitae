@@ -1,0 +1,26 @@
+@import "../variables";
+
+.section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  column-gap: $normal-gap;
+
+  &__title {
+    display: flex;
+    width: 8rem;
+    justify-content: flex-end;
+
+    &__text {
+      color: $primary-color;
+    }
+  }
+
+  &__content {
+    width: 75rem;
+    display: flex;
+    flex-direction: column;
+  }
+}

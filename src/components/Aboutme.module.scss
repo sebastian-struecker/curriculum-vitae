@@ -2,18 +2,4 @@
 
 .aboutme {
 
-  display: flex;
-  width: 80vw;
-  justify-content: space-around;
-  align-items: baseline;
-
-  &__title {
-    color: $primary-color;
-  }
-
-  &__content {
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
-  }
 }

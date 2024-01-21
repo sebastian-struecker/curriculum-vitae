@@ -3,14 +3,9 @@ import styles from './Aboutme.module.scss';
 
 function Aboutme() {
     return (<div className={styles.aboutme}>
-        <h3 className={styles.aboutme__title}>About me</h3>
-        <div className={styles.aboutme__content}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-        </div>
+        I am an ambitious developer who is driven by new and exciting environments. I view challenges as
+        chances
+        to learn. I value creating value, being empathetic, and forming partnerships.
     </div>);
 }
 

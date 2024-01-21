@@ -1,9 +1,16 @@
-$small-row-gap: 1vh;
-$row-gap: 3vh;
-$large-row-gap: 5vh;
+$small-padding: 0.5rem;
+$normal-padding: 1rem;
 
-$small-column-gap: 1vw;
-$column-gap: 3vw;
-$large-column-gap: 5vw;
+$border-radius: 0.5rem;
+
+$xs-gap: 0.5rem;
+$small-gap: 1rem;
+$normal-gap: 2rem;
+$medium-gap: 3rem;
+$large-gap: 4rem;
+
+$emphasized-weight: 600;
 
 $primary-color: #846855;
+$secondary-color: #84555A;
+$complement-color: #557385;

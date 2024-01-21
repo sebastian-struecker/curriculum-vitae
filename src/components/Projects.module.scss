@@ -1,69 +1,87 @@
 @import "../variables";
 
 .projects {
-
-  display: flex;
-  width: 80vw;
-  justify-content: space-around;
-  align-items: baseline;
-
-  &__title {
-    color: $primary-color;
-  }
-
-  &__content {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-.project {
   display: flex;
   flex-direction: column;
-  width: 60vw;
-  row-gap: $row-gap;
+  row-gap: $medium-gap;
 
-  &__title {
+  &__project {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    row-gap: $xs-gap;
+
+    padding: $normal-padding;
+    border-color: $secondary-color;
+    border-width: thin;
+    border-style: solid;
+    border-radius: $border-radius;
 
     &__title {
-      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      &__title {
+        color: $primary-color;
+        font-weight: bold;
+        width: 55rem;
+      }
+
+      &__time {
+        font-weight: $emphasized-weight;
+      }
     }
 
-    &__time {
+    &__position {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: $normal-gap;
 
+      &__title {
+        color: $primary-color;
+        font-weight: $emphasized-weight;
+        font-style: italic;
+      }
+
+      &__company {
+        display: flex;
+        align-items: center;
+        column-gap: $xs-gap;
+
+        &__link {
+          height: 1rem;
+          //color: $complement-color;
+        }
+      }
     }
-  }
 
-  &__position {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    &__title {
-      font-style: italic;
+    &__description {
+      margin-bottom: $normal-gap;
     }
 
-    &__company {
+    &__skills {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      column-gap: $small-gap;
+      row-gap: $small-gap;
 
-    }
-  }
-
-  &__description {
-
-  }
-
-  &__skills {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    column-gap: 3vw;
-    margin-bottom: 3vh;
-
-    &__skill {
-
+      &__skill {
+        font-weight: $emphasized-weight;
+        color: $primary-color;
+        padding: $small-padding;
+        border-color: $secondary-color;
+        border-width: thin;
+        border-style: solid;
+        border-radius: $border-radius;
+      }
     }
   }
 }
+
+

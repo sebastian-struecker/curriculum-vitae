@@ -1,43 +1,34 @@
 @import "../variables";
 
 .skills {
-
   display: flex;
-  width: 80vw;
-  justify-content: space-around;
-  align-items: baseline;
+  flex-direction: row;
+  column-gap: $large-gap;
+  row-gap: $normal-gap;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
 
-  &__title {
-    color: $primary-color;
-  }
-
-  &__content {
+  &__category {
     display: flex;
-    flex-direction: row;
-    column-gap: $large-column-gap;
-    row-gap: $row-gap;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: flex-start;
-    width: 60vw;
-    justify-content: space-between;
+    row-gap: $small-gap;
 
-    &__category {
+    &__title {
+      color: $primary-color;
+      font-weight: bold;
+    }
 
-      &__title {
-        font-weight: bold;
-        margin-bottom: 1vh;
-      }
+    &__skills {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      row-gap: $small-gap;
 
-      &__skills {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        row-gap: $small-row-gap;
+      &__skill {
 
-        &__skill {
-
-        }
       }
     }
   }
