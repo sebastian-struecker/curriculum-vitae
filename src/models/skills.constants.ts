@@ -38,6 +38,8 @@ export const CLEAN_CODE = "Clean Code";
 
 export const CLEAN_ARCHITECTURE = "Clean Architecture";
 
+export const EVENT_DRIVEN_ARCHITECTURE = "Event Driven Architecture";
+
 export const TDD = "Test Driven Development";
 
 export const DOCKER = "Docker";

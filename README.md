@@ -40,3 +40,14 @@ To deploy this project as a GitHub Page run
 ## Authors
 
 - [@sebastian-struecker](https://www.github.com/sebastian-struecker)
+
+This software solution grants access to in-house applications, eliminating the need for company-managed hardware
+devices. It provides a centralized platform for multiple applications, ensuring that diverse groups of employees can
+easily access them in a secure and reliable manner.
+<br>
+<br>
+Responsibilities:
+
+- Requirements engineering
+- System design
+- Implementation

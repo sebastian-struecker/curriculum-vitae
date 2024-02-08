@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './Skills.module.scss';
 
-export type SkillsInput = {
+export type Props = {
     languages: string[]; frameworks: string[]; technologies: string[]; methods: string[];
 }
 
-function Skills(input: SkillsInput) {
+function Skills({languages, frameworks, technologies, methods}: Props) {
 
     const generateCategory = (title: string, skills: string[]) => {
         return (<div className={styles.skills__category}>
@@ -19,10 +19,10 @@ function Skills(input: SkillsInput) {
     }
 
     return (<div className={styles.skills}>
-        {generateCategory('Languages', input.languages)}
-        {generateCategory('Frameworks', input.frameworks)}
-        {generateCategory('Technologies', input.technologies)}
-        {generateCategory('Methods', input.methods)}
+        {generateCategory('Languages', languages)}
+        {generateCategory('Frameworks', frameworks)}
+        {generateCategory('Technologies', technologies)}
+        {generateCategory('Methods', methods)}
     </div>);
 }
 
