@@ -14,6 +14,8 @@ export const SQL = "SQL";
 
 export const QUARKUS = "Quarkus";
 
+export const SPRING_BOOT = "Spring Boot";
+
 export const ANGULAR = "Angular";
 
 export const REACT = "React";

@@ -3,7 +3,7 @@ export type Project = {
 }
 
 export const PROJECT_DESCRIPTIONS = {
-    EMPLOYEE_APP: `Assumed some solution architect responsibilities and further developed a software solution that provides 
+    EMPLOYEE_APP: `Assumed solution architect responsibilities and further developed a software solution that provides 
     access to internal applications, reducing the need for corporate-managed hardware devices. It provides a centralized 
     platform for multiple applications, ensuring that different groups of employees can access them easily, securely, 
     and reliably.`,
